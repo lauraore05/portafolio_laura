@@ -35,7 +35,7 @@ document.addEventListener('mouseup', () => cursor.classList.remove('click'));
 // Smooth cursor follow with lerp
 function animateCursor() {
   const ease = 0.15;
-  const dotEase = 0.35;
+  const dotEase = 0.51;
 
   cursorX += (mouseX - cursorX) * ease;
   cursorY += (mouseY - cursorY) * ease;
