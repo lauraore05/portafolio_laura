@@ -421,7 +421,7 @@ document.querySelectorAll('.btn, .contact-link').forEach(btn => {
   const textEl = document.getElementById('projectsType');
   if (!textEl) return;
 
-  const fullText = 'Proyectos';
+  const fullText = 'Proyectos Destacados';
   let charIndex = 0;
 
   function typeEffect() {
